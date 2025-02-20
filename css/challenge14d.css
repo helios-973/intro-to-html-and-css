@@ -1,0 +1,41 @@
+body{
+  height:3000px;
+}
+.overlay{
+  position:fixed;
+  background-color: rgba(0,0,0,0.5);
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-sidebar{
+  position:fixed;
+  background-color:green;
+  color:white;
+  font-family: arial;
+  top:0;
+  bottom:0;
+  right:0;
+  width:100px;
+}
+.modal{
+  background-color: white;
+  width: 300px;
+  padding:15px;
+  border-radius: 5px;
+}
+div{
+  font-family:arial;
+}
+.title{
+  font-size: 24px;
+  font-weight:700;
+  margin-bottom: 12px;
+}
+button{
+  margin-top: 12px;
+}

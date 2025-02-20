@@ -1,0 +1,21 @@
+.flexbox{
+  display:flex;
+  margin-top: 20px;
+  height:50px;
+}
+.col1{
+  width:100px;
+  background-color: lightpink;
+}
+.col2{
+  width:200px;
+  background-color: lightblue;
+}
+.nested-flex{
+  display:flex;
+  justify-content:space-between;
+}
+.row{
+  background-color: black;
+  color:white;
+}

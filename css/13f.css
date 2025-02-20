@@ -1,0 +1,62 @@
+body{
+  margin:0;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+  display:flex;
+  flex-direction: row;
+  width:400px;
+  margin: 20px 20px;
+}
+.profile-pic{
+  width:60px;
+}
+.tweet{
+  flex:1;
+}
+.image{
+  width:50px;
+  height:50px;
+  border-radius:25px;
+  object-fit:cover;
+}
+.at{
+  color: rgb(111, 111, 111);
+}
+.name {
+  margin-bottom: 5px;
+}
+.tweet-text{
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+.link-card{
+  display:flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: solid;
+  border-color:rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+  align-items: center;
+}
+.thumbnail{
+  width:100px;
+  height:100px;
+  margin-right: 10px;
+  background-color:rgb(200, 200, 200) ;
+}
+.card-text{
+  flex:1;
+}
+.youtube-link{
+  color: rgb(111, 111, 111);
+  margin-bottom:3px;
+}
+.video-title{
+  line-height: 20px;
+}

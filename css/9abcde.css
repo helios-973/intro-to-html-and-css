@@ -1,0 +1,94 @@
+.red-box{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.green-circle{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.card{
+  border-style: solid;
+  border-color: rgb(205, 205, 205);
+  border-width: 1.5px;
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+.title{
+  font-family: Arial;
+}
+.youtube{
+  background-color: black;
+  font-family: arial;
+  width:300px;
+  padding-left: 15px;
+  padding-right:15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.install{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2px ;
+}
+.add{
+  color:rgb(151, 151, 151);
+  font-size: 13px;
+}
+.hippo{
+  width:50px;
+  height:50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius:25px;
+  margin-left: 8px;
+  vertical-align: middle;
+  margin-left:15px;
+  border-color: rgb(29, 236, 22);
+  border-style:solid;
+  border-width: 3px;
+  }
+.text{
+  font-family: arial;
+  font-size: 14px;
+  width: 310px;
+  border:none;
+  color: rgb(100,100,100);
+  margin-left: 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+ }
+.tweet-button{
+  background-color: rgb(0, 166, 255);
+  color:white;
+  border: none;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius:20px ;
+  vertical-align: middle;
+   }
+  .twitter{
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.35);
+    border-radius: 10px;
+    width: 480px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left:20px;
+    margin-top: 25px;
+     
+  }

@@ -1,0 +1,23 @@
+
+.elephant{
+  width: 200px;
+  border-radius: 6px;
+}
+.elephant2{
+  height:100px;
+  width:100px;
+  object-fit: cover;
+  object-position:center;
+  border-width: 2px;
+  border-color:brown;
+  border-style:solid;
+  margin-left:15px;
+}
+.elephant3{
+  height: 100px;
+  width:100px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position:center;
+  margin-left:15px;
+}

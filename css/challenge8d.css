@@ -1,0 +1,41 @@
+.first-name-box
+{
+  padding: 8px 10px;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: rgb(100,100,100);
+  width:125px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.last-name-box{
+  padding: 8px 10px;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: rgb(100,100,100);
+  width:125px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.email-box{
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: rgb(118, 118, 118);
+  width:275px;
+  font-size: 14px;
+}
+button{
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  border:none;
+  background-color: rgb(57, 113, 224);
+  color:white;
+  width:300px;
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex Practice</title>
+    <style>
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        margin-bottom:20px;
+      }
+      .lightblue{
+        background-color: lightblue;
+      }
+      .lightpink{
+        background-color: lightpink;
+      }
+      .item1{
+        width:50px;
+      }
+      .item2{
+        flex: 1;
+      }
+      .item3{
+        width:75px;
+      }
+      .flexbox1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-bottom:20px;
+      }
+      .flexbox2{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        border:1px;
+        border-style:solid;
+        border-color:grey;
+        height:50px;
+        align-items:center;
+        margin-bottom:20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; margin-bottom:20px">
+      <div style="background-color: lightblue; width:200px">200px</div>
+      <div style="background-color: lightpink; width:75px">75px</div>
+    </div>
+
+    <div class="flexbox">
+      <div class="lightblue item1">item1</div>
+      <div class="lightpink item2">item2</div>
+      <div class="lightblue item3">item3</div>
+    </div>
+
+    <div class="flexbox1">
+      <div class="lightpink">item1</div>
+      <div class="lightpink">item2</div>
+      <div class="lightpink">item3</div>
+      <div class="lightpink">item4</div>
+    </div>
+
+    <div class="flexbox2">
+      <div class="lightpink">item1</div>
+      <div class="lightpink">item2</div>
+    </div>
+  </body>
+</html>

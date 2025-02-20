@@ -1,0 +1,19 @@
+p{
+  font-family:Arial;
+  margin:0;
+  margin-bottom:10px;
+}
+.user-name{
+  font-weight: bold;
+}
+.handle{
+  color:rgb(93, 93, 93);
+}
+.body{
+  width: 500px;
+  margin-bottom:15px;
+  line-height:24px;
+}
+.link{
+  color:rgb(50, 136, 227);
+}

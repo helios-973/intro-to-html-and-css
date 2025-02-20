@@ -1,0 +1,14 @@
+p{
+  text-align: center;
+  font-family: montserrat;
+  margin-top:0;
+  margin-bottom:0;
+}
+.model{
+  font-weight: bold;
+  font-size:35px;
+  margin-bottom:15px;
+}
+.link{
+  text-decoration: underline;
+}

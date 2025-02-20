@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Position Practice</title>
+    <style>
+      body{
+        height:3000px;
+      }
+      .bottom-right{
+        background-color:black;
+        color:white;
+        position: fixed;
+        bottom:20px;
+        right:20px;
+        z-index:2;
+      }
+      .right-siderbar{
+        background-color:green;
+        color:white;
+        position:fixed;
+        right:0;
+        top:0;
+        bottom:0;
+        width:100px;
+        z-index:1;
+      }
+      .cover{
+        position:fixed;
+        background-color:black;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bottom-right"> bottom-right</div>
+    <div class="right-siderbar">right sidebar</div>
+    <div class="cover"></div>
+  </body>
+</html>
